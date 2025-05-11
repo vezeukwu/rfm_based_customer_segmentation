@@ -21,7 +21,7 @@ st.title("RoyalBank RFM Dashboard")
 #load data with cache
 @st.cache_data
 def load_data():
-    return pd.read_csv(rC:\Users\Admin\Desktop\DataScience 10alytics\Machine Learning\rfm_based_customer_segmentation\Output data\RFM_Segmented.csv")
+    return pd.read_csv(r"C:\Users\Admin\Desktop\DataScience 10alytics\Machine Learning\rfm_based_customer_segmentation\Output data\RFM_Segmented.csv")
 
 df = load_data()
 
